@@ -1,0 +1,44 @@
+.app-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.logo-navbar-item {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo-navbar {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar-user-info {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.user-firstname {
+    font-size: 32px;
+    color: yellow;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.navbar-login-button {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+}
+
+.app-layout-content {
+    flex: 1;
+}

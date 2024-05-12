@@ -1,0 +1,51 @@
+.favorites-container {
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.favorites-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.favorites-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.favorite-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.favorite-card-items {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.favorite-card-items p {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.favorite-card-items span {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.favorite-card-items button {
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(235, 235, 235, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}

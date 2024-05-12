@@ -1,0 +1,59 @@
+@media screen and (width <=1920px) {
+    .footer-left span {
+        font-size: 30px;
+    }
+
+    .footer span {
+        font-size: 30px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer-left span {
+        font-size: 28px;
+    }
+
+    .footer span {
+        font-size: 28px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .footer {
+        padding: 16px;
+    }
+
+    .footer-left span {
+        font-size: 24px;
+    }
+
+    .footer span {
+        font-size: 24px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+    }
+
+    .logo-footer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-left span {
+        font-size: 19px;
+    }
+
+    .footer span {
+        font-size: 19px;
+    }
+}

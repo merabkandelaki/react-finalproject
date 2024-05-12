@@ -1,0 +1,11 @@
+.nav-link {
+    font-size: 32px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link.active {
+    color: orange;
+}

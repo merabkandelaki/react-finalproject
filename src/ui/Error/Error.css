@@ -1,0 +1,37 @@
+.error-box {
+    background-image: url(../../assets/page_not_found_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-box-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.error-box-item h1 {
+    font-size: 65px;
+}
+
+.error-box-item p {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.error-box-item button {
+    width: 210px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid black;
+    font-size: 28px;
+    font-weight: 600;
+    cursor: pointer;
+}

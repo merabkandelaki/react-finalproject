@@ -1,0 +1,63 @@
+.book-card {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.book-card:hover img {
+    transform: scale(1.4);
+}
+
+.book-card:hover .book-card-info {
+    transform: translateY(0);
+}
+
+.book-card img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    transition: 0.8s;
+    transform-origin: center center;
+}
+
+.book-card-info {
+    position: absolute;
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(2, 0, 36, 0.2);
+    transition: .5s;
+    transform: translateY(100%);
+}
+
+.book-card-title-author-publisher {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.book-card-title, .book-card-author, .book-card-publisher {
+    font-weight: 500;
+    font-size: 24px;
+    color: antiquewhite;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.book-card-button {
+    padding: 0px 14px;
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(235, 235, 235, 0.8);
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}

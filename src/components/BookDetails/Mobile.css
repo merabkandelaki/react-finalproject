@@ -1,0 +1,163 @@
+@media screen and (width <=1920px) {
+    .book-details-container {
+        padding: 18px 20px;
+    }
+
+    .book-details-image img {
+        width: 385px;
+        height: 500px;
+    }
+
+    .book-detail-title-desc span {
+        font-size: 28px;
+    }
+
+    .book-detail-desc {
+        font-size: 24px;
+    }
+
+    .book-detail-additional-info span {
+        font-size: 28px;
+    }
+
+    .book-detail-title, .book-detail-authors, .book-detail-date, .book-detail-publisher {
+        font-size: 24px;
+    }
+
+    .book-detail-title span, .book-detail-authors span, .book-detail-date span, .book-detail-publisher span {
+        font-size: 24px;
+    }
+
+    .favorite-add, .favorite-delete {
+        width: 250px;
+        height: 48px;
+        border-radius: 23px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .book-details-container {
+        padding: 16px 20px;
+    }
+
+    .book-details-box {
+        gap: 28px;
+    }
+
+    .book-details-image img {
+        width: 308px;
+        height: 400px;
+    }
+
+    .book-detail-title-desc span {
+        font-size: 24px;
+    }
+
+    .book-detail-desc {
+        font-size: 20px;
+    }
+
+    .book-detail-additional-info span {
+        font-size: 24px;
+    }
+
+    .book-detail-title, .book-detail-authors, .book-detail-date, .book-detail-publisher {
+        font-size: 20px;
+    }
+
+    .book-detail-title span, .book-detail-authors span, .book-detail-date span, .book-detail-publisher span {
+        font-size: 20px;
+    }
+
+    .favorite-add, .favorite-delete {
+        width: 210px;
+        height: 40px;
+        border-radius: 18px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .book-details-container {
+        padding: 16px;
+    }
+
+    .book-details-box {
+        gap: 25px;
+    }
+
+    .book-details-image img {
+        width: 231px;
+        height: 300px;
+    }
+
+    .book-detail-title-desc span {
+        font-size: 20px;
+    }
+
+    .book-detail-desc {
+        font-size: 16px;
+    }
+
+    .book-detail-additional-info span {
+        font-size: 20px;
+    }
+
+    .book-detail-title, .book-detail-authors, .book-detail-date, .book-detail-publisher {
+        font-size: 16px;
+    }
+
+    .book-detail-title span, .book-detail-authors span, .book-detail-date span, .book-detail-publisher span {
+        font-size: 16px;
+    }
+
+    .favorite-add, .favorite-delete {
+        width: 180px;
+        height: 35px;
+        border-radius: 15px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .book-details-container {
+        padding: 8px;
+    }
+
+    .book-details-box {
+        gap: 17px;
+    }
+
+    .book-details-image img {
+        width: 154px;
+        height: 200px;
+    }
+
+    .book-detail-title-desc span {
+        font-size: 16px;
+    }
+
+    .book-detail-desc {
+        font-size: 12px;
+    }
+
+    .book-detail-additional-info span {
+        font-size: 16px;
+    }
+
+    .book-detail-title, .book-detail-authors, .book-detail-date, .book-detail-publisher {
+        font-size: 12px;
+    }
+
+    .book-detail-title span, .book-detail-authors span, .book-detail-date span, .book-detail-publisher span {
+        font-size: 12px;
+    }
+
+    .favorite-add, .favorite-delete {
+        width: 130px;
+        height: 28px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+}

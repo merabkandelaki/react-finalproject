@@ -1,0 +1,38 @@
+@media screen and (width <=1440px) {
+    .nav-bar {
+        padding: 20px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .nav-bar {
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .burger-menu {
+        display: block;
+        margin-bottom: 1rem;
+    }
+
+    .nav-bar.open .logo-navbar-item,
+    .nav-bar.open .navbar-user-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar:not(.open) .logo-navbar-item,
+    .nav-bar:not(.open) .navbar-user-info {
+        display: none;
+    }
+}
+
+@media screen and (width <=768px) {
+    .burger-menu .menu-icon {
+        width: 35px;
+        height: 35px;
+    }
+}

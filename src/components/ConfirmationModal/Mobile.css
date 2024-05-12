@@ -1,0 +1,61 @@
+@media screen and (width <=1920px) {
+    .modal-content {
+        padding: 28px;
+        gap: 28px;
+    }
+
+    .modal-content h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .modal-content {
+        padding: 25px;
+        gap: 25px;
+    }
+
+    .modal-content h3 {
+        font-size: 25px;
+    }
+
+    .modal-actions button {
+        width: 120px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .modal-content {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .modal-content h3 {
+        font-size: 20px;
+    }
+
+    .modal-actions button {
+        width: 100px;
+        height: 35px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .modal-content {
+        padding: 10px;
+        gap: 14px;
+    }
+
+    .modal-content h3 {
+        font-size: 12px;
+    }
+
+    .modal-actions button {
+        width: 70px;
+        height: 28px;
+        font-size: 14px;
+    }
+}

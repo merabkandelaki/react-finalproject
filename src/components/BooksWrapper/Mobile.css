@@ -1,0 +1,76 @@
+@media screen and (width <=1440px) {
+    .container {
+        padding: 16px 20px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .container {
+        padding: 16px;
+    }
+
+    .search-books input {
+        padding: 18px;
+        width: 210px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    .icon-search {
+        width: 28px;
+        height: 28px;
+    }
+
+    .search-books-buttons button {
+        width: 120px;
+        height: 45px;
+        font-size: 21px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 21px;
+    }
+
+    .load-more-button {
+        width: 190px;
+        height: 45px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .search-books input {
+        padding: 8px;
+        width: 120px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .icon-search {
+        width: 19px;
+        height: 19px;
+    }
+
+    .search-books-buttons button {
+        width: 80px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 17px;
+    }
+
+    .load-more-button {
+        width: 120px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+}

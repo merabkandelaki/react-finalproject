@@ -1,0 +1,98 @@
+@media screen and (width <=1920px) {
+    .favorites-container h2 {
+        font-size: 28px;
+    }
+
+    .favorite-card-items p {
+        font-size: 24px;
+    }
+
+    .favorite-card-items span {
+        font-size: 24px;
+    }
+
+    .favorite-card-items button {
+        font-size: 24px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .favorites-container {
+        padding: 10px 20px;
+    }
+
+    .favorites-cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 25px;
+    }
+
+    .favorites-container h2 {
+        font-size: 24px;
+    }
+
+    .favorite-card-items p {
+        font-size: 20px;
+    }
+
+    .favorite-card-items span {
+        font-size: 20px;
+    }
+
+    .favorite-card-items button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .favorites-container {
+        padding: 10px 16px;
+    }
+
+    .favorites-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 21px;
+    }
+
+    .favorites-container h2 {
+        font-size: 20px;
+    }
+
+    .favorite-card-items p {
+        font-size: 16px;
+    }
+
+    .favorite-card-items span {
+        font-size: 16px;
+    }
+
+    .favorite-card-items button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .favorites-container {
+        padding: 8px;
+    }
+
+    .favorites-cards {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 17px;
+    }
+
+    .favorites-container h2 {
+        font-size: 16px;
+    }
+
+    .favorite-card-items p {
+        font-size: 12px;
+    }
+
+    .favorite-card-items span {
+        font-size: 12px;
+    }
+
+    .favorite-card-items button {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,112 @@
+{
+  "users": [
+    {
+      "email": "kandelakimerab@gmail.com",
+      "password": "$2a$10$rzdOPklrX0W/mpmn255adeCGMC3X/hUZ2wFQzzaFBWX1XxDOEA9Qe",
+      "username": "Dianne Russell",
+      "firstName": "Merab",
+      "lastName": "Kandelaki",
+      "phoneNumber": "599078287",
+      "repeatPassword": "merabi",
+      "id": 1
+    },
+    {
+      "email": "mahrabchin@gmail.com",
+      "password": "$2a$10$GPVf0f4PSywp.7bP74JwZeoYINanCR6YN1l0Ux1piPnEUGp81Hm42",
+      "username": "merabi",
+      "firstName": "Merabi",
+      "lastName": "Kandelaki",
+      "phoneNumber": "599078287",
+      "repeatPassword": "merabi123",
+      "id": 2
+    },
+    {
+      "email": "digitalAcademy@gmail.com",
+      "password": "$2a$10$xOBvsNJ2m7qKnA9NJWi.FOumv1LVY0CHOJ1HljY9SomisUqXFPONG",
+      "username": "maraba",
+      "firstName": "Merabi",
+      "lastName": "Kandelaki",
+      "phoneNumber": "599078287",
+      "repeatPassword": "test",
+      "id": 3
+    },
+    {
+      "email": "contentwriter@company.com",
+      "password": "$2a$10$SnYyKReotP.tqWoAne8souhopHRB.0g82nBcDvu5cw2GjmqFTN1Hm",
+      "username": "John Deo",
+      "firstName": "Merabi",
+      "lastName": "Kandelaki",
+      "phoneNumber": "599078287",
+      "repeatPassword": "valiko",
+      "id": 4
+    },
+    {
+      "email": "kvirike@gmail.com",
+      "password": "$2a$10$sHeSAo2sXhrNDVXwEyaYVOGSdGNR8TN1haf40ZvJbLvFOdRpUNfhO",
+      "username": "merabi",
+      "firstName": "Merabi",
+      "lastName": "Kandelaki",
+      "phoneNumber": "599078287",
+      "repeatPassword": "kirileW3",
+      "id": 5
+    },
+    {
+      "email": "floid@gmail.com",
+      "password": "$2a$10$iNAxbpSR7GxtZ2/CCPVyp.ZeouvRQ5hhsKw23GfgJGV/al6oZgkZe",
+      "username": "floid",
+      "firstName": "floid",
+      "lastName": "Hitler",
+      "phoneNumber": "599078287",
+      "repeatPassword": "Mahrab1",
+      "id": 6
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$7ev3ll0nohRUR0SPp6j9pes1ftEvcVSREvK10FkjCuNCVkyV6t7Cm",
+      "username": "test",
+      "firstName": "gada",
+      "lastName": "puga",
+      "phoneNumber": "599078287",
+      "repeatPassword": "Kvata1",
+      "id": 7
+    },
+    {
+      "email": "iiii@dd.com",
+      "password": "$2a$10$tsl3/rOYnCRaiJ1nWo2L1.lViMSlzyVx9YgkB1.cgSO9eO5b0oF5u",
+      "username": "dada",
+      "firstName": "waew",
+      "lastName": "wew",
+      "phoneNumber": "23232",
+      "repeatPassword": "Ed123456!",
+      "id": 8
+    },
+    {
+      "email": "w2k21k@dd.com",
+      "password": "$2a$10$2ghYyTaUzF.LbwZ0rZ4xwO2Uxu6mLwnlWyuKmAyue5v7UKjD0BibC",
+      "username": "wqewq",
+      "firstName": "wqewq",
+      "lastName": "wqeqw",
+      "phoneNumber": "23213",
+      "repeatPassword": "Ed123456!",
+      "id": 9
+    },
+    {
+      "email": "ii2i2@dd.com",
+      "password": "$2a$10$8AgUNmmNK9UW6fj2k7rGOOS3CCN2I0shU/ddd7SmbsqjYVrgtGC2S",
+      "username": "waeaweaw",
+      "firstName": "ewew",
+      "lastName": "ewrew",
+      "phoneNumber": "23232",
+      "id": 10
+    },
+    {
+      "email": "kirka@gmail.com",
+      "password": "$2a$10$vBXTNA/NkdvOsyLUF.qzIOr.57wmM69j9YTHv3xpK4NClflr66mOe",
+      "username": "kirile",
+      "firstName": "kvata",
+      "lastName": "gadasa",
+      "phoneNumber": "345678",
+      "id": 11
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+@media screen and (width <=1920px) {
+    .user-firstname {
+        font-size: 30px;
+    }
+
+    .navbar-login-button {
+        font-size: 30px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .logo-navbar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .user-firstname {
+        font-size: 28px;
+    }
+
+    .navbar-login-button {
+        font-size: 28px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .user-firstname {
+        font-size: 24px;
+    }
+
+    .navbar-login-button {
+        font-size: 24px;
+    }
+}
+
+@media screen and (width <=768px) {
+    .logo-navbar {
+        width: 55px;
+        height: 55px;
+    }
+
+    .user-firstname {
+        font-size: 19px;
+    }
+
+    .navbar-login-button {
+        font-size: 19px;
+    }
+}

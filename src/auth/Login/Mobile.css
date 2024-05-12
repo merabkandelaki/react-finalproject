@@ -1,0 +1,68 @@
+@media screen and (width <=1920px) {
+    .login-box-title {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .login-box-title {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .login-box-title {
+        font-size: 21px;
+    }
+}
+
+@media screen and (width <=767px) {
+    .login-box {
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .login-box-title {
+        font-size: 18px;
+    }
+
+    .error-message {
+        font-size: 16px;
+    }
+
+    .login-form-label {
+        font-size: 16px;
+    }
+
+    .login-form-input {
+        padding: 6px 10px;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 21px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .login-form-button {
+        width: 250px;
+        height: 42px;
+        margin-bottom: 18px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .login-form-register {
+        gap: 4px;
+    }
+
+    .login-form-register-desc {
+        font-size: 16px;
+    }
+
+    .login-form-register-link {
+        font-size: 16px;
+    }
+}

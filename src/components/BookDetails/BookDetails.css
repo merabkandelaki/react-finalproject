@@ -1,0 +1,92 @@
+.book-details-container {
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.book-details-box {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.book-details-image img {
+    width: 462px;
+    object-fit: cover;
+    height: 600px;
+}
+
+.book-detail-info {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.book-detail-title-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-detail-title-desc span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.book-detail-desc {
+    text-align: justify;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.book-detail-desc li {
+    list-style-type: none;
+}
+
+.book-detail-additional-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-detail-additional-info span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.book-detail-title-authors-date-publisher {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.book-detail-title, .book-detail-authors, .book-detail-date, .book-detail-publisher {
+    font-size: 28px;
+    font-weight: normal;
+}
+
+.book-detail-title span, .book-detail-authors span, .book-detail-date span, .book-detail-publisher span {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.favorite-add-delete {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.favorite-add, .favorite-delete {
+    width: 280px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: rgb(235, 235, 235, 0.8);
+    font-size: 28px;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,105 @@
+.register {
+    background-image: url(../../assets/login_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-box {
+    background-color: rgb(19, 18, 18);
+    margin: 20px;
+    width: 540px;
+    height: 100%;
+    padding: 10px 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(92, 88, 88);
+    border-radius: 20px;
+}
+
+.register-box-title {
+    font-size: 32px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: antiquewhite;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.register-label-username, .register-label-email, .register-label-firstname, .register-label-lastname, .register-label-phone, .register-label-password, .register-label-repeat-password {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-form-label {
+    font-size: 21px;
+    font-weight: normal;
+    color: #A0A0AB;
+}
+
+.register-form-input {
+    padding: 17px;
+    width: 396px;
+    height: 50px;
+    margin-bottom: 4px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #70707B;
+    font-size: 21px;
+    font-weight: normal;
+}
+
+.register-form-button {
+    width: 396px;
+    height: 52px;
+    margin-bottom: 24px;
+    background-color: blue;
+    border-radius: 8px;
+    border: none;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: antiquewhite;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-form-login {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.register-form-login-desc {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #70707B;
+    font-weight: normal;
+}
+
+.register-form-login-link {
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #A0A0AB;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.error {
+    font-size: 21px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: red;
+}

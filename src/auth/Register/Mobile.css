@@ -1,0 +1,68 @@
+@media screen and (width <=1920px) {
+    .register-box-title {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+}
+
+@media screen and (width <=1440px) {
+    .register-box-title {
+        font-size: 25px;
+        letter-spacing: 1px;
+    }
+}
+
+@media screen and (width <=1075px) {
+    .register-box-title {
+        font-size: 21px;
+    }
+}
+
+@media screen and (width <=767px) {
+    .register-box {
+        width: 300px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .register-box-title {
+        font-size: 18px;
+    }
+
+    .error {
+        font-size: 16px;
+    }
+
+    .register-form-label {
+        font-size: 16px;
+    }
+
+    .register-form-input {
+        padding: 6px 10px;
+        width: 250px;
+        height: 40px;
+        margin-bottom: 21px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .register-form-button {
+        width: 250px;
+        height: 42px;
+        margin-bottom: 18px;
+        border-radius: 8px;
+        font-size: 16px;
+    }
+
+    .register-form-login {
+        gap: 4px;
+    }
+
+    .register-form-login-desc {
+        font-size: 16px;
+    }
+
+    .register-form-login-link {
+        font-size: 16px;
+    }
+}
